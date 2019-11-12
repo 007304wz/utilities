@@ -25,5 +25,8 @@ function customCloneDeep(obj) {
     if (obj instanceof Function) {
         return obj;
     }
-
+    
 } 
+
+
+module.exports = customCloneDeep
